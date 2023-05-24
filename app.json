@@ -39,7 +39,7 @@
             "value":""
         },
         "STICKER_DATA": {
-            "description": "Name of stickers created using bot. Can also split using ;",
+            "description": "PHNIXX V1 ;",
             "required": true,
             "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ"
         },
@@ -49,34 +49,34 @@
             "value":"off"
         },
         "BOT_NAME": {
-            "description": "Name of AI chatbot",
+            "description": "BYE-PHONIXX",
             "required": true,
-            "value":"Raganork"
+            "value":"PHX"
         },
         "BOT_INFO": {
             "description": "Name, image, owner and other details in menu (seperate with comma)",
             "required": true,
-            "value":"Raganork,SKL11,91123456789,https://i.imgur.com/B2YWSLk.jpg"
+            "value":"BYE,PHONIXX,212651135146,https://i.imgur.com/tUAreSA.jpg"
         },
         "AUDIO_DATA": {
-            "description": "Name of audio (take) name;name;image(url)",
+            "description": "Name of audio (PHONIXX) name;name;image(https://i.imgur.com/tUAreSA.jpg)",
             "required": true,
-            "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;https://2.img-dpreview.com/files/p/E~C1000x0S4000x4000T1200x1200~articles/3925134721/0266554465.jpeg"
+            "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;https://i.imgur.com/tUAreSA.jpg"
         },
         "MODE": {
             "description": "Private or public",
             "required": true,
-            "value":"private"
+            "value":"public"
         },
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
-            "required": false,
-            "value":"919074309534"
+            "required": true,
+            "value":"212651135146"
         },
         "ALIVE": {
-            "description": "Alive message {image/link}, {sender} can also be used",
-            "required": false,
-            "value":"{pp} Active since {uptime}\n User:{sender}"
+            "description": "Alive message {image/https://i.imgur.com/tUAreSA.jpg}, {PHONIXX} can also be used",
+            "required": true,
+            "value":"{17} Active since {uptime}\n User:{PHONIXX}"
         },
        "SESSION": {
             "description": "Your MD session",
