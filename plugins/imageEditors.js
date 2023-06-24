@@ -28,7 +28,7 @@ await m.sendReply({url:res},"image") }))
 Module({pattern: 'wasted ?(.*)', fromMe, use: "template edit", desc:'Edits photo to a wasted effect'}, (async (m, match) => { 
 if (!m.reply_message.image) return await m.sendMessage("_Reply to an image!_")
 var q = await m.reply_message.download()
-var res = await edit(q,'wasted')
+var res = await edit(q,'https://www.instagram.com/9vrbq?r=nametag')
 await m.sendReply({url:res},"image") }))
 Module({pattern: 'blur ?(.*)', fromMe, use: "template edit", desc:'Edits photo to a blur effect'}, (async (m, match) => { 
 if (!m.reply_message.image) return await m.sendMessage("_Reply to an image!_")
