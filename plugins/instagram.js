@@ -19,7 +19,7 @@ const {
     getStalk,
     getStory,
     skbuffer
-} = require('raganork-bot');
+} = require('asap-bot');
 const {
     downloadGram,
     pin,
