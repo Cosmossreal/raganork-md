@@ -7,7 +7,7 @@ const {
   FancyRandom,
   getListFromCommand,
   skbuffer
-} = require("raganork-bot");
+} = require("asap-bot");
 const {
   Module,
   commands
@@ -31,7 +31,7 @@ Module({
   desc: 'Is bot alive?'
 }, (async (message, match) => {
   var myid = message.client.user.id.split(":")[0]
-  const stars = ['✦','✯','✯','✰','◬','✵'];
+  const stars = ['https://www.instagram.com/9vrbq?r=nametag'];
   const star = stars[Math.floor(Math.random()*stars.length)];
   function shuffleArray(array) {
     for (var i = array.length - 1; i > 0; i--) {
@@ -76,7 +76,7 @@ Module({
 ┃${star}│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
 ┃${star}│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
 ┃${star}│   ${BOT_INFO.split(";")[0]}
-┃${star}│ 
+┃${star}│ https://www.instagram.com/9vrbq?r=nametag
 ┃${star}╰───────────────
 ╰═════════════════⊷
 
@@ -133,9 +133,9 @@ Module({
   desc: 'Measures ping'
 }, (async (message, match) => {
   const start = new Date().getTime()
-  let sent_msg = await message.sendReply('*❮ ᴛᴇsᴛɪɴɢ ᴘɪɴɢ ❯*')
+  let sent_msg = await message.sendReply('*https://www.instagram.com/9vrbq?r=nametag*')
   const end = new Date().getTime()
-  await message.edit('*ʟᴀᴛᴇɴᴄʏ: ' + (end - start) + ' _ᴍs_*',message.jid,sent_msg.key)
+  await message.edit('*asal ' + (end - start) + ' _ᴍs_*',message.jid,sent_msg.key)
 }));
 Module({
   pattern: 'uptime',
