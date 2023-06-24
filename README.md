@@ -14,7 +14,7 @@
 <a href="https://github.com/sou6av/deploy-raganork/fork" target="blank"><img align="center" src="https://i.imgur.com/cxaSEWe.png" alt="Deploy bot" height="112" width="310" /></a>
   <div>
 <br>
-<a href="https://raganork.ml/heroku-deploy" target="blank"><img align="center" src="https://i.imgur.com/6rs61MY.png" alt="Deploy bot" height="112" width="310" /></a>
+<a href="https://github.com/souravkl11/raganork-mdheroku-deploy" target="blank"><img align="center" src="ahttps://i.imgur.com/sdrBqIx.jpg" alt="Deploy bot" height="112" width="310" /></a>
   <div>
 <br>
 
